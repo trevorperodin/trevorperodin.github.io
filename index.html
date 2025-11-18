@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevor Perodin | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#home" class="logo">Trevor Perodin</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Trevor Perodin</h1>
+            <p>Frontend Web Developer</p>
+            <a href="#work" class="btn">View Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-img">
+                    <img src="images/herobgimage.jpg" alt="Profile Image">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm Trevor, a passionate frontend developer with over 5 years of experience creating beautiful and functional websites. I specialize in turning complex problems into simple, beautiful designs.</p>
+                    <p>My journey in web development started when I built my first website in college. Since then, I've worked with various clients and companies to create digital experiences that users love.</p>
+
+                    <div class="skills">
+                        <div class="skill">
+                            <h3>Skills</h3>
+                            <div class="skill-name">
+                                <span>HTML/CSS</span>
+                                <!-- <span>95%</span> -->
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level1" data-level="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <!-- <span>90%</span> -->
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level2" data-level="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <!-- <span>85%</span> -->
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level3" data-level="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>TypeScript</span>
+                                <!-- <span>80%</span> -->
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level4" data-level="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="images/documentation.png" class="dl-btn" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="work" class="section">
+        <div class="container">
+            <h2 class="section-title">My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/tributepage.png" alt="Project 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Scott Hall Tribute Page</h3>
+                        <p>A tribute page dedicated to the late, great Bad Guy of wrestling, Scott Hall.</p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Scott Hall Tribute Page</h3>
+                        <p>Built with HTML and CSS</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/productlandingpage.png" alt="Project 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>PS5 Product Landing Page</h3>
+                        <p>A product landing webpage of Playstation 5 with details.</p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>PS5 Product Landing Page</h3>
+                        <p>Built with HTML and CSS</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/surveyformpage.png" alt="Project 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>fCC Survey Form</h3>
+                        <p>A survey form webpage for freeCodeCamp </p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>fCC Survey Form</h3>
+                        <p>Built with HTML and CSS</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/techdocpage.png" alt="Project 4">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>JavaScript Documentation</h3>
+                        <p>Documentation webpage that discloses the information and useage of JavaScript.</p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Finance Dashboard</h3>
+                        <p>Built with Vue.js, D3.js, and Firebase</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+        
+                <div class="social-links">
+                        <a href="https://github.com/trevorperodin" target="_blank" class="social-link"><i class="fab fa-github" alt="github"></i></a>
+                        <a href="https://codepen.io/trevorperodin" target="_blank" class="social-link"><i class="fab fa-codepen"></i></a>
+                        <a href="https://linkedin.com/in/trevorperodin" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:trevperodin@gmail.com" class="social-link"><i class="fab fa-at"></i></a>
+                        <a href="images/documentation.png" class="social-link" download><i class="fas fa-file-pdf"></i></a>
+                    </div>
+
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/xkgyozqo" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <div class="error" id="nameError">Please enter your name</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <div class="error" id="emailError">Please enter a valid email</div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                            <!-- <div class="error" id="emailError">Please enter a valid email</div> -->
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                            <div class="error" id="messageError">Please enter your message</div>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+            <div class="copyright">
+                <p>&copy; 2025 Trevor Perodin. All Rights Reserved.</p>
+            </div>
+    </footer>
+
+    <!-- /* UTILIZED AI AND OTHER RESOURCES TO CREATE PORTFOLIO WEBSITE. */ -->
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
