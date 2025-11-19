@@ -18,51 +18,51 @@
         });
 
         // Form Validation
-        const contactForm = document.getElementById('contactForm');
+        // const contactForm = document.getElementById('contactForm');
         
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
+        // contactForm.addEventListener('submit', function(e) {
+        //     e.preventDefault();
             
-            const name = document.getElementById('name');
-            const email = document.getElementById('email');
-            const message = document.getElementById('message');
+        //     const name = document.getElementById('name');
+        //     const email = document.getElementById('email');
+        //     const message = document.getElementById('message');
             
-            const nameError = document.getElementById('nameError');
-            const emailError = document.getElementById('emailError');
-            const messageError = document.getElementById('messageError');
+        //     const nameError = document.getElementById('nameError');
+        //     const emailError = document.getElementById('emailError');
+        //     const messageError = document.getElementById('messageError');
             
-            let isValid = true;
+        //     let isValid = true;
             
-            // Reset errors
-            nameError.style.display = 'none';
-            emailError.style.display = 'none';
-            messageError.style.display = 'none';
+        //     // Reset errors
+        //     nameError.style.display = 'none';
+        //     emailError.style.display = 'none';
+        //     messageError.style.display = 'none';
             
-            // Validate name
-            if (name.value.trim() === '') {
-                nameError.style.display = 'block';
-                isValid = false;
-            }
+        //     // Validate name
+        //     if (name.value.trim() === '') {
+        //         nameError.style.display = 'block';
+        //         isValid = false;
+        //     }
             
-            // Validate email
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailRegex.test(email.value.trim())) {
-                emailError.style.display = 'block';
-                isValid = false;
-            }
+        //     // Validate email
+        //     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        //     if (!emailRegex.test(email.value.trim())) {
+        //         emailError.style.display = 'block';
+        //         isValid = false;
+        //     }
             
-            // Validate message
-            if (message.value.trim() === '') {
-                messageError.style.display = 'block';
-                isValid = false;
-            }
+        //     // Validate message
+        //     if (message.value.trim() === '') {
+        //         messageError.style.display = 'block';
+        //         isValid = false;
+        //     }
             
-            if (isValid) {
-                // In a real application, you would send the form data to a server here
-                alert('Thank you for your message! I will get back to you ASAP!');
-                contactForm.reset();
-            }
-        });
+        //     if (isValid) {
+        //         // In a real application, you would send the form data to a server here
+        //         alert('Thank you for your message! I will get back to you ASAP!');
+        //         contactForm.reset();
+        //     }
+        // });
 
         // Animate skill bars when scrolled into view
         const skillBars = document.querySelectorAll('.skill-level');
