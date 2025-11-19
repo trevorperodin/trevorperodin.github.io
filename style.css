@@ -406,7 +406,7 @@
             box-shadow: var(--shadow);
         }
 
-        .form-group {
+        input {
             margin-bottom: 20px;
         }
 
