@@ -1,4 +1,4 @@
- /* CSS Reset and Variables */
+/* CSS Reset and Variables */
         :root {
             --primary-color: blue;
             --primary-dark: #4338ca;
@@ -78,7 +78,7 @@
         .btn-outline {
             background-color: transparent;
             border: 2px solid var(--primary-color);
-            color: var(--primary-color);
+            color: white;
             margin-top: 5px;
             margin-bottom: 10px;
         }
@@ -86,6 +86,45 @@
         .btn-outline:hover {
             background-color: var(--primary-color);
             color: white;
+        }
+
+        .wk-btn {
+            display: inline-block;
+            padding: 12px 28px;
+            margin-right: 20px;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: var(--transition);
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .wk-btn:hover {
+            background-color: var(--primary-dark);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        .ct-btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background-color: white;
+            color: var(--primary-color);
+            border-radius: 5px;
+            font-weight: 500;
+            transition: var(--transition);
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .ct-btn:hover {
+            background-color: var(--primary-dark);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
         }
 
         .dl-btn {
@@ -101,7 +140,7 @@
             font-size: 1rem;
         }
 
-         .dl-btn:hover {
+        .dl-btn:hover {
             background-color: var(--primary-dark);
             transform: translateY(-3px);
             box-shadow: var(--shadow);
@@ -151,7 +190,7 @@
         .logo {
             font-family: 'Poppins', sans-serif;
             font-size: 1.5rem;
-            font-weight: 700;
+            font-weight: 500;
             color: var(--primary-color);
         }
 
@@ -294,6 +333,11 @@
             background-color: blue;
             border-radius: 4px;
             transition: width 1.5s ease;
+        }
+
+        .download-cv {
+            margin-top: 30px;
+            text-align: left;
         }
 
         /* Portfolio Section */
